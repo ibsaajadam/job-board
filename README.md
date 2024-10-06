@@ -57,7 +57,7 @@ A React.js and Next.js application styled with Tailwind CSS that helps users fin
 
 ## Live Demo
 
-View the live demo here: [Live Demo](#)
+View the live demo here: [Live Demo](https://updated-job-board.netlify.app/)
 
 ## Contact
 
