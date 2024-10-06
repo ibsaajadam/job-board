@@ -13,7 +13,6 @@ interface JobListProps {
 export default function JobList({ location, skills }: JobListProps) {
   const [selectedJob, setSelectedJob] = useState<Job | null>(null);
 
-  // Mock job data with predefined locations and skills
   const jobs: Job[] = [
     {
       id: 1,

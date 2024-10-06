@@ -20,7 +20,6 @@ export default function ApplyModal({ job, onClose }: ApplyModalProps) {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Here you would typically send the application data to your backend
     console.log('Application submitted:', { name, email, resume, jobId: job.id });
     onClose();
   };
